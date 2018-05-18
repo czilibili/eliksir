@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CzasPrzelewu</class>
+ <widget class="QDialog" name="CzasPrzelewu">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>276</width>
+    <height>334</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>O której przelew</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QLabel" name="lab_bank_nad">
+     <property name="text">
+      <string>Bank nadawca</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="1">
+    <widget class="QComboBox" name="bank_nadawca"/>
+   </item>
+   <item row="1" column="0">
+    <widget class="QLabel" name="lab_bank_odb">
+     <property name="text">
+      <string>Bank odbiorca</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="1">
+    <widget class="QComboBox" name="bank_odbiorca"/>
+   </item>
+   <item row="2" column="0">
+    <widget class="QLabel" name="lab_czas_zlec">
+     <property name="text">
+      <string>Godzina zlecenia</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="1">
+    <widget class="QTimeEdit" name="timeEdit"/>
+   </item>
+   <item row="3" column="1">
+    <widget class="QPushButton" name="butt_ok">
+     <property name="text">
+      <string>OK</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="1">
+    <widget class="QPushButton" name="butt_close">
+     <property name="text">
+      <string>Zamknij</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
